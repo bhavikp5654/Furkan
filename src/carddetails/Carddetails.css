@@ -1,0 +1,38 @@
+.carddetailsmain{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.carddetailsmain h1{
+    text-align: center;
+}
+.carddetails{
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+}
+.carddetailsimg {
+    width: 60%;
+   
+}
+.carddetailsdesc{
+    width: 40%;
+    
+}
+.quant{
+    width: 80px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.612);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.quant span{
+    cursor: pointer;
+    font-size: 30px;
+
+}

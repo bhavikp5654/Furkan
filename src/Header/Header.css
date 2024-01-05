@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+
+}
+li{
+    list-style-type: none;
+    padding: 10px 20px;
+}
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+}
+.icon{
+    margin-right: 10px;
+}
+.fa-cart-shopping{
+    font-size: 20px;
+}
+.carditem{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.carditem1{
+    width: 300px;
+    height: 300px;
+   
+}
+
+.carditem1 h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    
+}
+.carditem img{
+    width: 150px;
+    height: 150px;
+}
+.fa-xmark{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+    color: red;
+}
+.cartitemflex{
+  
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.carditemimg img{
+    height: 150px;
+    width: 150px;
+}
+
+.fa-trash{
+    color: red;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+
+}
